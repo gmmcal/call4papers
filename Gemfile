@@ -35,6 +35,9 @@ gem 'simple_navigation_renderers'
 gem 'rails-env'
 gem 'friendly_id', '~> 5.1.0'
 
+# Environment variable
+gem 'figaro'
+
 # i18n
 gem 'rails-i18n', '~> 4.0.0'
 gem 'devise-i18n'

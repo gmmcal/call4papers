@@ -1,0 +1,19 @@
+APP_NAME: "Call For Papers"
+
+development:
+  APP_HOST: "localhost:3000"
+  SMTP_DELIVERY_METHOD: "smtp"
+  SMTP_SETTINGS: "{ address: 'localhost', port: 25, domain: 'localhost:3000', enable_starttls_auto: false }"
+  APP_EMAIL: "email@example.com"
+
+test:
+  APP_HOST: "localhost:3000"
+  SMTP_DELIVERY_METHOD: "smtp"
+  SMTP_SETTINGS: "{ address: 'localhost', port: 25, domain: 'localhost:3000', enable_starttls_auto: false }"
+  APP_EMAIL: "email@example.com"
+
+production:
+  APP_HOST: "example.com"
+  SMTP_DELIVERY_METHOD: "smtp"
+  SMTP_SETTINGS: "{ address: 'localhost', port: 25, domain: 'example.com', enable_starttls_auto: false }"
+  APP_EMAIL: "email@example.com"

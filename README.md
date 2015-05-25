@@ -22,6 +22,7 @@ bundle install
 cp config/database.yml.example config/database.yml
 -- (Config your database parameter on database.yml (if needed))
 cp config/secrets.yml.example config/secrets.yml
+cp config/application.yml.example config/application.yml
 rake db:create
 rake db:migrate
 ```
